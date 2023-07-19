@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
+    <button id="add">Add Notes</button>
+    <div id="form">
+        <div id="show_title">
+            <label for="title"><b>Title</b></label><br>
+            <input type="text" name="title" id="title"/>
+        </div>
+        <div>
+            <lable for="notes"><b>Notes</b></lable><br>
+           <input type="text" name="notes" id="notes"/>
+        </div>
+        <div >
+            <button id="btn">Save</button>
+        </div>
+    </div>
+    <div>
+        <ul id="ul-list"></ul>
+    </div>
     <script src="./app.js"></script>
 </body>
 </html>
