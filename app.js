@@ -13,13 +13,13 @@ let array=[];
 btn.addEventListener("click",(e) =>{
     e.preventDefault();
     form.style.display="none";
-    // let ul_list=document.getElementById("ul-list");
-    // let list=document.createElement("li");
+    let ul_list=document.getElementById("ul-list");
+    let list=document.createElement("li");
     let value= title.value
     array.push(value);
     console.log(array)
    console.log(value);
-    // ul_list.appendChild(list);
-    // ul_list.appendChild(array[0]);
-    add.appendChild(array[0])
+    ul_list.appendChild(list);
+    ul_list.appendChild(array);
+    // add.appendChild(array[0])
 });
